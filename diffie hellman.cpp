@@ -17,13 +17,13 @@ long int power(int a,int b,int mod)
  int main()
  {
   int n,g,x,a,y,b;  
-// both the persons will be agreed upon the common n and g  
+
   printf("Enter the value of n and g : "); 
   scanf("%d%d",&n,&g);    
-// first person will choose the x  
+
   printf("Enter the value of x for the first person : ");
   scanf("%d",&x);  a=power(g,x,n);    
-// second person will choose the y
+
   printf("Enter the value of y for the second person : ");
   scanf("%d",&y);  b=power(g,y,n);
   printf("key for the first person is : %lld\n",power(b,x,n));
